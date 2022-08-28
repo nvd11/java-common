@@ -23,16 +23,16 @@ public class ExampleConstruct1 implements Example {
 
     @Override
     public void runApp() {
-        CatServiceNoArgs CatService1 = ()->new Cat();
-        CatServiceNoArgs CatService2=Cat::new;
+        CatServiceNoArgs catService1 = ()->new Cat();
+        CatServiceNoArgs catService2=Cat::new;
 
-        log.info(CatService1.getCat().toString());
-        log.info(CatService2.getCat().toString());
+        log.info(catService1.getCat().toString());
+        log.info(catService2.getCat().toString());
 
-        CatService CatService3 = (name, age)->new Cat(name, age);
-        CatService CatService4=Cat::new;
+        CatService catService3 = (name, age)->new Cat(name, age);
+        CatService catService4=Cat::new;
 
-        log.info(CatService3.getCat("Alice", 3).toString());
-        log.info(CatService4.getCat("Bill", 4).toString());
+        log.info(catService3.getCat("Alice", 3).toString());
+        log.info(catService4.getCat("Bill", 4).toString());
     }
 }

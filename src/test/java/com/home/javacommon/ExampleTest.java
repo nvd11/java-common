@@ -4,6 +4,7 @@ import com.home.javacommon.study.lambda.example1.ExampleIntClass;
 import com.home.javacommon.study.lambda.example1.ExampleLambda;
 import com.home.javacommon.study.lambda.funcref.ExampleFunc1;
 import com.home.javacommon.study.lambda.funcref.construct.ExampleConstruct1;
+import com.home.javacommon.study.lambda.list.ExampleList1;
 import com.home.javacommon.study.lambda.simplification.ExampleSimp1;
 import com.home.javacommon.study.lambda.simplification.ExampleSimp2;
 import com.home.javacommon.study.lambda.simplification.ExampleSimp3;
@@ -36,6 +37,11 @@ public class ExampleTest {
 
     @Resource
     private ExampleConstruct1 exampleConstruct1;
+
+    @Resource
+    private ExampleList1 exampleList1;
+
+
 
     @Test
     void testExampleIntClass() {
@@ -77,6 +83,12 @@ public class ExampleTest {
     void ExampleConstruct1() {
         exampleConstruct1.runApp();
         Assert.isTrue(true,"testExampleConstruct1 is done");
+    }
+
+    @Test
+    void ExampleExampleList1() {
+        exampleList1.runApp();
+        Assert.isTrue(true,"testExampleList1 is done");
     }
 
 
