@@ -2,6 +2,7 @@ package com.home.javacommon;
 
 import com.home.javacommon.study.lambda.example1.ExampleIntClass;
 import com.home.javacommon.study.lambda.example1.ExampleLambda;
+import com.home.javacommon.study.lambda.funcref.ExampleFunc1;
 import com.home.javacommon.study.lambda.simplification.ExampleSimp1;
 import com.home.javacommon.study.lambda.simplification.ExampleSimp2;
 import com.home.javacommon.study.lambda.simplification.ExampleSimp3;
@@ -28,6 +29,9 @@ public class ExampleTest {
 
     @Resource
     private ExampleSimp3 exampleSimp3;
+
+    @Resource
+    private ExampleFunc1 exampleFunc1;
 
     @Test
     void testExampleIntClass() {
@@ -57,5 +61,11 @@ public class ExampleTest {
     void testExampleSimp3() {
         exampleSimp3.runApp();
         Assert.isTrue(true,"testExampleSimp3 is done");
+    }
+
+    @Test
+    void testExampleFunc1() {
+        exampleFunc1.runApp();
+        Assert.isTrue(true,"testExampleFunc1 is done");
     }
 }
