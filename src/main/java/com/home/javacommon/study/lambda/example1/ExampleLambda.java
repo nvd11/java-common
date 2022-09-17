@@ -1,7 +1,7 @@
 package com.home.javacommon.study.lambda.example1;
 
 import com.home.javacommon.study.lambda.Cal;
-import com.home.javacommon.study.lambda.Example;
+import com.home.javacommon.study.Example;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 

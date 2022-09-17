@@ -1,7 +1,6 @@
 package com.home.javacommon.study.lambda.funcref;
 
-import com.home.javacommon.study.lambda.Example;
-import lombok.Data;
+import com.home.javacommon.study.Example;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
