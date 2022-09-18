@@ -24,4 +24,11 @@ class RandomStudyTest {
         }
 
     }
+
+    @Test
+    void test2(){
+
+    }
+
+
 }
