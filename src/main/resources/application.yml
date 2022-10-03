@@ -1,0 +1,6 @@
+logging:
+  level:
+    root: INFO
+    my.app: INFO
+  file:
+    name: ./logs/my-app.log

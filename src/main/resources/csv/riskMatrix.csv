@@ -1,0 +1,13 @@
+serialVersionUID,id,batchId,legal,department,item,exposure,limit,rate,createdTime,modifiedTime,createdBy,modifiedBy
+1L,13,21,HBAP,TradeRisk,1a,1000.32,2000,null,05:36.1,05:36.1,Jason Pan,Jason Pan
+1L,14,21,HBAP,TradeRisk,2a,2000.45,3000,null,05:36.2,05:36.2,Jason Pan,Jason Pan
+1L,15,21,HBAP,MarketRisk,3a,3000.11,3000,null,05:36.2,05:36.2,Jason Pan,Jason Pan
+1L,19,21,HBAP,TradeRisk,1a,1000.32,2000,null,31:18.3,31:18.3,Jason Pan,Jason Pan
+1L,20,21,HBAP,TradeRisk,2a,2000.45,3000,null,31:18.3,31:18.3,Jason Pan,Jason Pan
+1L,21,21,HBAP,MarketRisk,5a,3000.11,3000,null,31:18.4,31:18.4,Jason Pan,Jason Pan
+1L,13,21,HBEU,TradeRisk,1a,1000.32,2000,null,05:36.1,05:36.1,Jason Pan,Jason Pan
+1L,14,21,HBEU,TradeRisk,2a,20220.45,3000,null,05:36.2,05:36.2,Jason Pan,Jason Pan
+1L,15,21,HBEU,MarketRisk,3a,3000.11,3000,null,05:36.2,05:36.2,Jason Pan,Jason Pan
+1L,19,21,HBEU,TradeRisk,1a,1030.32,2000,null,31:18.3,31:18.3,Jason Pan,Jason Pan
+1L,20,21,HBEU,TradeRisk,2a,2003.45,3000,null,31:18.3,31:18.3,Jason Pan,Jason Pan
+1L,21,21,HBEU,MarketRisk,5a,3000.11,3000,null,31:18.4,31:18.4,Jason Pan,Jason Pan
