@@ -1,4 +1,4 @@
-package com.home.javacommon.designpattern.builder;
+package com.home.javacommon.study.designpattern.builder;
 
 import lombok.extern.slf4j.Slf4j;
 

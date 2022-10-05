@@ -1,4 +1,4 @@
-package com.home.javacommon.designpattern.observer;
+package com.home.javacommon.study.designpattern.observer;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -41,7 +41,7 @@ class Commander implements Observer{
     private List<Publisher> publishersList = new ArrayList<>();
 
     public void addPublisher(Publisher publisher){
-
+        publisher.setObserver(this);
         this.publishersList.add(publisher);
     }
 
@@ -49,7 +49,7 @@ class Commander implements Observer{
     public void sNotify() {
         log.info("Commander ordered to fire the target: {}", this.target.getTarget());
         for (Publisher publisher : this.publishersList) {
-            publisher.setObserver(this);
+
             publisher.update();
         }
     }

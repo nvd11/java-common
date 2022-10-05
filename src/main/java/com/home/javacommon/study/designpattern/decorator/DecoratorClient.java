@@ -1,4 +1,4 @@
-package com.home.javacommon.designpattern.decorator;
+package com.home.javacommon.study.designpattern.decorator;
 
 
 import lombok.AllArgsConstructor;

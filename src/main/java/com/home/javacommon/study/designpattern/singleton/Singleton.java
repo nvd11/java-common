@@ -1,4 +1,4 @@
-package com.home.javacommon.designpattern.singleton;
+package com.home.javacommon.study.designpattern.singleton;
 
 public class Singleton {
     private String name;
