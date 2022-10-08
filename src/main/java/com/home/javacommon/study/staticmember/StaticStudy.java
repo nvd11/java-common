@@ -18,7 +18,7 @@ public class StaticStudy implements Example {
 
     private void case2(){
         Invoice invoice = new Invoice();
-        log.info(((SalesInvoice)invoice).formatId("1234"));
+        //log.info(((SalesInvoice)invoice).formatId("1234"));
     }
 
 
