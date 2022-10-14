@@ -1,6 +1,5 @@
 package com.home.javacommon.study.generics.genericmethod;
 
-import com.sun.istack.internal.NotNull;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.*;
@@ -53,7 +52,7 @@ class RandomGetter<T>{
      * @param <T>
      * @return
      */
-    public <T> T getRandom(@NotNull Set<T> prodSet){
+    public <T> T getRandom(Set<T> prodSet){
         if (Objects.isNull(prodSet) || 0 == prodSet.size()){
             return null;
         }
