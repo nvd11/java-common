@@ -32,3 +32,10 @@ build/
 ### VS Code ###
 .vscode/
 /logs/my-app.log
+my-app.log
+logs/my-app.log.2022-08-23.0.gz
+logs/my-app.log.2022-08-24.0.gz
+logs/my-app.log.2022-08-26.0.gz
+logs/my-app.log.2022-08-28.0.gz
+logs/my-app.log.2022-10-08.0.gz
+logs/my-app.log.2022-10-09.0.gz
