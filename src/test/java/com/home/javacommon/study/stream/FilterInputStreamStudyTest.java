@@ -10,6 +10,6 @@ class FilterInputStreamStudyTest {
     @Test
     void runApp() {
         FilterInputStreamStudy filterInputStreamStudy =  new FilterInputStreamStudy();
-        filterInputStreamStudy.runApp();
+        //filterInputStreamStudy.runApp();
     }
 }
