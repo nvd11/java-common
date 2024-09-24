@@ -9,36 +9,37 @@ import com.home.javacommon.study.lambda.simplification.ExampleSimp1;
 import com.home.javacommon.study.lambda.simplification.ExampleSimp2;
 import com.home.javacommon.study.lambda.simplification.ExampleSimp3;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.util.Assert;
 
-import javax.annotation.Resource;
+
 
 @SpringBootTest
 public class ExampleTest {
 
-    @Resource
+    @Autowired
     private ExampleIntClass exampleIntClass;
 
-    @Resource
+    @Autowired
     private ExampleLambda exampleLambda;
 
-    @Resource
+    @Autowired
     private ExampleSimp1 exampleSimp1;
 
-    @Resource
+    @Autowired
     private ExampleSimp2 exampleSimp2;
 
-    @Resource
+    @Autowired
     private ExampleSimp3 exampleSimp3;
 
-    @Resource
+    @Autowired
     private ExampleFunc1 exampleFunc1;
 
-    @Resource
+    @Autowired
     private ExampleConstruct1 exampleConstruct1;
 
-    @Resource
+    @Autowired
     private ExampleList1 exampleList1;
 
 

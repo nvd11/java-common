@@ -2,15 +2,16 @@ package com.home.javacommon.study.lambda.funcref;
 
 import com.home.javacommon.study.Example;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
+
 
 @Component
 @Slf4j
 public class ExampleFunc1 implements Example {
 
-    @Resource
+    @Autowired
     private CommonCal commonCal;
 
     @FunctionalInterface
